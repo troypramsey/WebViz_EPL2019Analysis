@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="WebVisualizations/assets/styles.css">
     <title>2019-2020 EPL Analysis</title>
 </head>
 <body>
@@ -21,18 +21,18 @@
             <div class="col-md-4">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="comparisons.html">Comparisons</a>
+                        <a class="nav-link" href="WebVisualizations/assets/comparisons.html">Comparisons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="data.html">Data</a>
+                        <a class="nav-link" href="WebVisualizations/assets/data.html">Data</a>
                     </li>
                     <li class="nav-item dropdown ml-md-auto">
-                         <a class="nav-link dropdown-toggle" href="comparisons.html" id="navbarDropdownMenuLink" data-toggle="dropdown">Visualizations</a>
+                         <a class="nav-link dropdown-toggle" href="WebVisualizations/assets/comparisons.html" id="navbarDropdownMenuLink" data-toggle="dropdown">Visualizations</a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="viz1.html">xG Differentials</a> <a class="dropdown-item" href="viz2.html">npxG Differentials</a> <a class="dropdown-item" href="viz3.html">xGA Differentials</a> <a class="dropdown-item" href="viz4.html">xP Differentials</a>
+                            <a class="dropdown-item" href="WebVisualizations/visualizations/viz1.html">xG Differentials</a> <a class="dropdown-item" href="WebVisualizations/visualizations/viz2.html">npxG Differentials</a> <a class="dropdown-item" href="WebVisualizations/visualizations/viz3.html">xGA Differentials</a> <a class="dropdown-item" href="WebVisualizations/visualizations/viz4.html">xP Differentials</a>
                         </div>
                     </li>
                 </ul>
@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card">
-                            <img class="card-img-top" alt="Bootstrap Thumbnail First" src="../visualizations/xg_diff_bar.png" />
+                            <img class="card-img-top" alt="Bootstrap Thumbnail First" src="WebVisualizations/visualizations/xg_diff_bar.png" />
                             <div class="card-block">
                                 <h5 class="card-title">
                                     xG Differential
@@ -65,13 +65,13 @@
                                 <p class="card-text">
                                     The differences between the amount of goals actually scored and the expected goals predicted for each EPL club.
                                 </p>
-                                <a href="../assets/viz1.html" class="stretched-link"></a>
+                                <a href="WebVisualizations/assets/viz1.html" class="stretched-link"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="card">
-                            <img class="card-img-top" alt="Bootstrap Thumbnail Second" src="../visualizations/npxg_diff_bar.png" />
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Second" src="WebVisualizations/visualizations/npxg_diff_bar.png" />
                             <div class="card-block">
                                 <h5 class="card-title">
                                     Non-Penalty xG Differential
@@ -79,7 +79,7 @@
                                 <p class="card-text">
                                     The differences between the amount of goals actually scored and the expected non-penalty goals predicted for each EPL club.
                                 </p>
-                                <a href="../assets/viz2.html" class="stretched-link"></a>
+                                <a href="WebVisualizations/assets/viz2.html" class="stretched-link"></a>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card">
-                            <img class="card-img-top" alt="Bootstrap Thumbnail First" src="../visualizations/xga_diff_bar.png" />
+                            <img class="card-img-top" alt="Bootstrap Thumbnail First" src="WebVisualizations/visualizations/xga_diff_bar.png" />
                             <div class="card-block">
                                 <h5 class="card-title">
                                     xGA Differential
@@ -95,13 +95,13 @@
                                 <p class="card-text">
                                     The differences between the amount of goals scored against a club and the expected xG of the opposing team.
                                 </p>
-                                <a href="../assets/viz3.html" class="stretched-link"></a>
+                                <a href="WebVisualizations/assets/viz3.html" class="stretched-link"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="card">
-                            <img class="card-img-top" alt="Bootstrap Thumbnail Second" src="../visualizations/xp_diff_bar.png" />
+                            <img class="card-img-top" alt="Bootstrap Thumbnail Second" src="WebVisualizations/visualizations/xp_diff_bar.png" />
                             <div class="card-block">
                                 <h5 class="card-title">
                                     Expected Points Differential
@@ -109,7 +109,7 @@
                                 <p class="card-text">
                                     The differences between the amount of points accrued and the expected points predicted for each EPL club.
                                 </p>
-                                <a href="../assets/viz4.html" class="stretched-link"></a>
+                                <a href="WebVisualizations/assets/viz4.html" class="stretched-link"></a>
                             </div>
                         </div>
                     </div>
