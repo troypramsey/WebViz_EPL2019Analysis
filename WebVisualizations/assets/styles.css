@@ -2,6 +2,7 @@
 
 body {
   background-color: #ebecf1;
+  background-image: url("../resources/bg.jpg");
 }
 
 a {
@@ -51,11 +52,24 @@ table {
   display: flexbox;
 }
 
+.nav-link {
+  color: #ebecf1;
+}
+
+.dataframe {
+  align-content: center;
+  width: 100%;
+}
+
+
 
 /* IDs */
 
 #header_bar {
   background-color: #206a5d;
+  filter: drop-shadow(3px 3px 3px #1b1c25);
+  position: relative;
+  z-index: 9999;
 }
 
 #logo_bar {
@@ -65,6 +79,18 @@ table {
 
 #logo {
   color: #ebecf1;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  filter: drop-shadow(1px 1px 1px #1b1c25);
+}
+
+#main-content{
+  background: rgba(235, 236, 241, .8);
+  filter: drop-shadow(3px 3px 3px #1b1c25);
+  z-index: 9;
+}
+
+#comparison-img {
+  filter: drop-shadow(3px 3px 3px #1b1c25)
 }
 
 #navsplit {
@@ -73,6 +99,7 @@ table {
 }
 
 #card-container{
+  filter: drop-shadow(3px 3px 3px #1b1c25);
   }
 
 #dropdownMenuButton {
@@ -83,6 +110,14 @@ table {
   
   .nav {
     display: none;
+  }
+
+  #logo {
+    color: #ebecf1;
+  }
+
+  #header_bar {
+    background-color: #206a5d;
   }
   
   #dropdownMenuButton{
