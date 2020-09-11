@@ -18,6 +18,11 @@ p {
 
 img {
   margin-bottom: 1.5rem;
+  max-width: 100%;
+}
+
+table {
+  background-color: #fafafa;
 }
 
 /* CLASSES */
@@ -28,6 +33,18 @@ img {
 
 .dropdown-item {
   color: #1b1c25;
+}
+
+.card-block {
+  background-color: #fafafa;
+}
+
+.card-img-top {
+  margin: 0 !important;
+}
+
+.card-title {
+  text-align: center;
 }
 
 
@@ -49,4 +66,8 @@ img {
 #navsplit {
   margin-top: 1.5rem;
 
+}
+
+#card-container{
+  
 }
