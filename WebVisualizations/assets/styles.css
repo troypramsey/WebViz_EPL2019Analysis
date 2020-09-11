@@ -47,6 +47,10 @@ table {
   text-align: center;
 }
 
+.nav {
+  display: flexbox;
+}
+
 
 /* IDs */
 
@@ -69,5 +73,20 @@ table {
 }
 
 #card-container{
+  }
+
+#dropdownMenuButton {
+  display: none;
+}
+
+@media (max-width: 768px) {
   
+  .nav {
+    display: none;
+  }
+  
+  #dropdownMenuButton{
+    display: block;
+    float: right;
+  }
 }
