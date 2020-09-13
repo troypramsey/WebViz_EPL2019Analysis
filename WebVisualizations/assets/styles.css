@@ -36,6 +36,10 @@ table {
   color: #1b1c25;
 }
 
+.card {
+  filter: drop-shadow(3px 3px 3px #1b1c25);
+}
+
 .card-block {
   background-color: #fafafa;
 }
@@ -100,11 +104,13 @@ table {
 
 #card-container{
   filter: drop-shadow(3px 3px 3px #1b1c25);
+  background: rgba(235, 236, 241, .8);
   }
 
 #dropdownMenuButton {
   display: none;
 }
+
 
 @media (max-width: 768px) {
   
